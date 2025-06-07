@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduce Myself</title>
+    <link rel="icon" type="image/x-icon" href="/HTML/apple-1.jpg">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        header, footer {
+            background-color: #ddd;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: darkblue;
+        }
+
+        .image-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        .highlight {
+            color: blue;
+            font-weight: bold;
+        }
+
+        .strong {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+
+    <header>
+        <h1>Hello!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#todolist">To Do</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                My name is <strong>Nagomi</strong>.<br>
+                <em>I am studying <span class="strong">Web Development</span>.</em><br>
+                I'm learning at <span class="highlight">CCTB</span>.
+            </p>
+        </section>
+
+        <section>
+            <h2>My Picture</h2>
+            <div class="image-row">
+                <img src="apple-1.jpg" width="100" height="100" alt="apple 1">
+            </div>
+        </section>
+
+        <article id="hobbies">
+            <h2>My Hobbies</h2>
+            <ul>
+                <li>Sports</li>
+                <li>Watch movies</li>
+                <li>Programming</li>
+            </ul>
+        </article>
+
+        <article id="todolist">
+            <h2>TO DO LIST</h2>
+            <ol>
+                <li>Practice HTML</li>
+                <li>Practice CSS</li>
+                <li>Take a break</li>
+            </ol>
+        </article>
+
+        <section>
+            <h2>Useful Links</h2>
+            <p>Visit <a href="https://www.w3schools.com" target="_blank">W3Schools</a> for learning HTML & CSS.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nagomi. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
